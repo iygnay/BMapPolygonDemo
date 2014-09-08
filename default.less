@@ -1,3 +1,31 @@
 ﻿body {
 }
- 
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@aside-width: 240px;
+
+#main-content{
+    height: 100%;
+    position: relative;
+    padding-right: @aside-width;
+
+    #map{
+        height: 100%;
+        width: 100%;
+    }
+
+    #aside-bar{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: @aside-width;
+        height: 100%;
+        background-color: #ffeeee;
+        box-shadow: #ffeeee 0 0 3px;
+    }
+}

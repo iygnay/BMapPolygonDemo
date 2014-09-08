@@ -65,7 +65,17 @@
     <Content Include="default.min.css">
       <DependentUpon>default.css</DependentUpon>
     </Content>
+    <Content Include="default.css.map">
+      <DependentUpon>default.css</DependentUpon>
+    </Content>
+    <Content Include="Scripts\bmap.getscript.cache.js" />
     <None Include="Scripts\_references.js" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
